@@ -58,3 +58,35 @@
 .top-padding{
 	padding-top: 3.5px;
 }
+
+.features {
+	ul {
+		margin-left: 0;
+		padding-left: 15px;
+	}
+}
+
+.jumbotron {
+	text-align: center;
+	background-image: asset-url('Chicago.JPG');
+	background-size: cover;
+	color: #fff;
+	border-radius: 10px;
+
+	h2 {
+		font-size: 40px !important;
+		.lead {
+			font-family: 'Helvetica Neue' !important;
+			font-size: 25px !important;
+		}
+	} 
+}
+
+.no-left-padding {
+	padding-left: 0 !important;
+}
+
+.listing {
+	list-style: none;
+	padding-left: 0;
+}
